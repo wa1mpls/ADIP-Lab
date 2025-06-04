@@ -11,7 +11,7 @@
 - Granulometry values are output numerically and plotted.
 - Command-line usage via `main_grayscale.py`.
 
-➡ Try:
+Try:
 ```bash
 python main_grayscale.py -i input.jpg -o output.jpg -p "Dilate" -m manual
 ```
