@@ -46,7 +46,7 @@ python main_grayscale.py -i input.jpg -o output.jpg -p "Dilate" -m manual
 - Observed **training instability** and **mode collapse**; output images were blurry or repetitive.
 - Suggested fixes: label smoothing, feature matching, spectral normalization, longer training.
 
-➡ Highlights:
+Highlights:
 - Defined custom `Generator` and `Discriminator` using `nn.Linear`
 - Manual training loop with separate optimizer and loss logic
 - Plotted generated outputs and loss trends for each epoch
@@ -63,7 +63,7 @@ python main_grayscale.py -i input.jpg -o output.jpg -p "Dilate" -m manual
 
 ---
 
-## ▶ How to Run
+##  How to Run
 
 Each project includes a `source/` folder with runnable code. For example:
 
